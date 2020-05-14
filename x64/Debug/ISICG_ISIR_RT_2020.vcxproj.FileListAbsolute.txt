@@ -1,0 +1,4 @@
+E:\Ce PC\Documents\ISIR\ISIR-Student\x64\Debug\ISICG_ISIR_RT_2020.exe
+E:\Ce PC\Documents\ISIR\ISIR-Student\x64\Debug\ISICG_ISIR_RT_2020.pdb
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\x64\Debug\ISICG_ISIR_RT_2020.exe
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\x64\Debug\ISICG_ISIR_RT_2020.pdb

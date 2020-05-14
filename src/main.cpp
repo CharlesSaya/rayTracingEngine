@@ -64,8 +64,8 @@ namespace ISICG_ISIR
 
 		// get arguments
 		const std::string name(argv[1]);
-		const uint width = 3840;
-		const uint height = 2160;
+		const uint width = 960;
+		const uint height = 540;
 		ImageJPG image(width, height);
 
 		// CAMERA
@@ -307,7 +307,7 @@ namespace ISICG_ISIR
 		objects.emplace_back(&beyblade2);
 
 		std::vector<BVHNode *> bvhNodes;
-		bvhNodes.emplace_back(bunnyBVH);
+		//bvhNodes.emplace_back(bunnyBVH);
 
 		// SET OBJECTS IN THE LIGHT MATERIAL USED TO GET OBJECTS COLORS
 		//----------------------------------------------------------------------------------------------------------------
@@ -322,7 +322,7 @@ namespace ISICG_ISIR
 
 		// ANTI ALIASING POWER
 		// ----------------------------------------------------------------------------------------------------------------
-		float AAPower = 1.f;
+		float AAPower = 0.f;
 
 		// random----------------------------------------------------------------------------------------------------------------
 		std::random_device rd;

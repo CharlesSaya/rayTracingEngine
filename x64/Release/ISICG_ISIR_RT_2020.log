@@ -1,0 +1,52 @@
+﻿  main.cpp
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\3D\implicitCylinder.hpp(19,53): warning C4114: même qualificateur de type utilisé plusieurs fois
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\3D\implicitSphere.hpp(19,53): warning C4114: même qualificateur de type utilisé plusieurs fois
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(112,42): warning C4305: 'argument' : troncation de 'double' à 'T'
+          with
+          [
+              T=float
+          ]
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(124,63): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(154,27): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(159,38): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(164,38): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(169,43): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(174,39): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(179,43): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(195,25): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(200,36): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(205,36): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(210,41): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(215,48): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(220,37): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(225,26): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(232,34): warning C4305: 'argument' : troncation de 'double' à 'T'
+          with
+          [
+              T=float
+          ]
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(233,35): warning C4305: 'argument' : troncation de 'double' à 'float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(238,48): warning C4305: 'argument' : troncation de 'double' à 'float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(243,48): warning C4305: 'argument' : troncation de 'double' à 'float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(248,48): warning C4305: 'argument' : troncation de 'double' à 'float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(256,50): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(261,51): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(269,22): warning C4305: 'argument' : troncation de 'double' à 'T'
+          with
+          [
+              T=float
+          ]
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(270,23): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(274,22): warning C4305: 'argument' : troncation de 'double' à 'T'
+          with
+          [
+              T=float
+          ]
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(275,23): warning C4305: 'argument' : troncation de 'double' à 'const float'
+E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\src\main.cpp(403,12): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+  Génération de code en cours
+  45 of 1000 functions ( 4.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    30 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  ISICG_ISIR_RT_2020.vcxproj -> E:\Ce PC\Documents\ISIR_CHARLES_SAYAMATH\x64\Release\ISICG_ISIR_RT_2020.exe
