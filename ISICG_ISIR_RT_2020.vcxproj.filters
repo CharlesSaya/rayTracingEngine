@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="3D">
+      <UniqueIdentifier>{2fd1bbd4-d881-46a7-83bd-81413b487982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="materials">
+      <UniqueIdentifier>{8f39de7e-d386-46aa-9171-8fa918fc2556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{54adff66-a8f9-427e-8d2f-2b69b642627c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{7041a4f1-5c7f-4d5b-bcc7-0727c0b651ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\obj">
+      <UniqueIdentifier>{9bc02699-e24b-44db-981f-c71db8994fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{1a84dad4-65b6-4d85-81e3-f39d66740d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="light">
+      <UniqueIdentifier>{fcf992ca-1f56-4f08-9531-35893da47d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3D\Implicit">
+      <UniqueIdentifier>{a9f2f495-4e75-469e-bfd9-b018f887d94c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\chrono.hpp" />
+    <ClInclude Include="src\defines.hpp" />
+    <ClInclude Include="src\image.hpp" />
+    <ClInclude Include="src\3D\sphere.hpp">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3D\triangleMesh.hpp">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3D\aObject3D.hpp">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\materials\aMaterial.hpp">
+      <Filter>materials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3D\ray.hpp">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3D\intersection.hpp">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="src\3D\plan.hpp">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\materials\lightMaterial.hpp">
+      <Filter>materials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\materials\checkeredMaterial.hpp">
+      <Filter>materials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BVH\bvhnode.hpp">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BVH\box.hpp">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="src\materials\brdf.hpp">
+      <Filter>materials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\materials\flatColorMaterial.hpp">
+      <Filter>materials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.hpp">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\light\light.hpp">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="src\light\pointLight.hpp">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3D\implicitSphere.hpp">
+      <Filter>3D\Implicit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3D\implicitSurface.hpp">
+      <Filter>3D\Implicit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3D\implicitCylinder.hpp">
+      <Filter>3D\Implicit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\3D\triangleMesh.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3D\sphere.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3D\plan.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BVH\bvhnode.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BVH\box.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3D\aObject3D.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3D\intersection.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3D\ray.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\materials\checkeredMaterial.cpp">
+      <Filter>materials</Filter>
+    </ClCompile>
+    <ClCompile Include="src\materials\lightmaterial.cpp">
+      <Filter>materials</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\materials\brdf.cpp">
+      <Filter>materials</Filter>
+    </ClCompile>
+    <ClCompile Include="src\light\light.cpp">
+      <Filter>light</Filter>
+    </ClCompile>
+    <ClCompile Include="src\light\pointLight.cpp">
+      <Filter>light</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3D\implicitSphere.cpp">
+      <Filter>3D\Implicit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3D\implicitSurface.cpp">
+      <Filter>3D\Implicit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3D\implicitCylinder.cpp">
+      <Filter>3D\Implicit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ISICG_ISIR_RT_2020.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="data\obj\cornell_box.obj">
+      <Filter>data\obj</Filter>
+    </Object>
+    <Object Include="data\obj\bunnyLight.obj">
+      <Filter>data\obj</Filter>
+    </Object>
+    <Object Include="data\obj\Bunny.obj">
+      <Filter>data\obj</Filter>
+    </Object>
+    <Object Include="data\obj\bunny2.obj">
+      <Filter>data\obj</Filter>
+    </Object>
+    <Object Include="data\obj\hunter.obj">
+      <Filter>data\obj</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".clang-format" />
+  </ItemGroup>
+</Project>

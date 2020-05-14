@@ -1,0 +1,4 @@
+.clang-format
+x64/
+.vs/
+lib/
