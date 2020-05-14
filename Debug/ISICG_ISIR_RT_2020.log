@@ -1,0 +1,12 @@
+﻿  camera.cpp
+  plan.cpp
+  sphere.cpp
+  main.cpp
+E:\Ce PC\Documents\ISIR\ISIR-Student\camera.cpp(17,17): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+E:\Ce PC\Documents\ISIR\ISIR-Student\src\3D\aObject3D.hpp(26,16): error C2039: 'vector' : n'est pas membre de 'std' (compilation du fichier source src\3D\plan.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\cstring(17): message : voir la déclaration de 'std' (compilation du fichier source src\3D\plan.cpp)
+E:\Ce PC\Documents\ISIR\ISIR-Student\src\3D\aObject3D.hpp(26,22): error C2143: erreur de syntaxe : absence de ';' avant '<' (compilation du fichier source src\3D\plan.cpp)
+E:\Ce PC\Documents\ISIR\ISIR-Student\src\3D\aObject3D.hpp(26,22): error C2433: 'ISICG_ISIR::AObject3D::vector' : 'virtual' non autorisé sur les déclarations de données (compilation du fichier source src\3D\plan.cpp)
+E:\Ce PC\Documents\ISIR\ISIR-Student\src\3D\aObject3D.hpp(26,22): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut (compilation du fichier source src\3D\plan.cpp)
+  triangleMesh.cpp
+E:\Ce PC\Documents\ISIR\ISIR-Student\src\3D\aObject3D.hpp(27,7): error C2238: jetons inattendus avant ';' (compilation du fichier source src\3D\plan.cpp)
